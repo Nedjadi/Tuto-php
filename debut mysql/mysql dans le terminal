@@ -1,0 +1,28 @@
+mysql -u root -p // cree un serveur mysql
+
+
+CREATE DATABASE test CHARACTER SET utf8;
+// cree une base de donnee mysql
+
+
+ USE test;//changer la base de donnée
+
+
+CREATE TABLE users (firstname varchar(255));// cree une table d utilisateur
+
+
+
+INSERT INTO users VALUE ("ahmed");
+// inserer la valeur ahmed dans le tableau mysql
+
+
+
+SELECT * FROM users;// voir tout notre table
+
+
+
+SELECT NAME FROM users;// voir le nom de votre table users
+
+
+
+ALTER TABLE users ADD email varchar(255);
